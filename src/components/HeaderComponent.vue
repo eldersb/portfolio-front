@@ -9,7 +9,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">                 
                         <div class="d-flex gap-3">
-                            <router-link to="/home" class="text-light link-custom">
+                            <router-link to="/" class="text-light link-custom">
                                  Home
                             </router-link>
                             <router-link to="/about" class="text-light link-custom">
