@@ -7,21 +7,27 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
+                    <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">                 
+                        <div class="d-flex gap-3">
+                            <router-link to="/home" class="text-light link-custom">
+                                 Home
+                            </router-link>
+                            <router-link to="/about" class="text-light link-custom">
+                                Sobre mim
+                            </router-link> 
+                        </div>                  
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/elders3288/" target="_blank"><i class="bi bi-linkedin fs-4"></i></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre mim</a>
+                            <a class="nav-link" href="#"><i class="bi bi-envelope fs-4"></i></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Contatos</a>
+                            <a class="nav-link" href="#"><i class="bi bi-telephone fs-4"></i></a>
                         </li>
-                        <div>
-                            <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-linkedin fs-4"></i></a>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://github.com/eldersb"><i class="bi bi-github fs-4"></i></a>
                         </li>
-                        </div>
                                 
                   </ul>
                 </div>
@@ -31,9 +37,9 @@
 </template>
 
 <script>
-export default {
-    name: 'HeaderComponent'
-}
+// export default {
+//     name: 'HeaderComponent'
+// }
 
 </script>
 
@@ -41,5 +47,8 @@ export default {
 
 <style>
 
+.link-custom {
+    text-decoration: none;
+}
 
 </style>
