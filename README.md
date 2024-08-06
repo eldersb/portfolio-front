@@ -4,7 +4,7 @@ Repositório contendo o front-end do meu portifólio.
 
 ## Tecnologias utilizadas
 * HTML
-* CSS
+* CSS (Bootstrap)
 * JS
 * Vue
 * Vite
