@@ -16,7 +16,7 @@
                     <p>Fique por dentro do que estou estudando:</p>
             </div>
             
-            <section class=" mt-3 mb-5col ">
+            <section class="mt-3 mb-5 col">
                 <article class="row gap-4 m-0 p-0 justify-content-center align-items-center">
                     <CardComponent 
                         v-for="qtd in cardCount"
