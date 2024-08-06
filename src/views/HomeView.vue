@@ -3,7 +3,7 @@
     
 <div class="container">
     <div class="row d-flex justify-content-center">
-        <div class="col-md-9">
+        <div class="col-md-12">
 
             <div class="jumbotron">
                 <h1 class="display-4 text-center mt-5">Projetos em destaque</h1>
@@ -17,7 +17,7 @@
             </div>
             
             <section class="mt-3 mb-5 col">
-                <article class="row gap-4 m-0 p-0 justify-content-center align-items-center">
+                <article class="row gap-3 m-0 p-0 justify-content-center align-items-center">
                     <CardComponent 
                         v-for="qtd in cardCount"
                         :key="qtd"
