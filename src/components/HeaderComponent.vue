@@ -17,16 +17,16 @@
                             </router-link> 
                         </div>                  
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/elders3288/" target="_blank"><i class="bi bi-linkedin fs-4"></i></a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/elders3288/" target="_blank"><i class="bi bi-linkedin fs-4" abbr title="elders3288"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-envelope fs-4"></i></a>
+                            <a class="nav-link" href="#"><i class="bi bi-envelope fs-4" abbr title="elders787@gmail.com"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-telephone fs-4"></i></a>
+                            <a class="nav-link" href="#"><i class="bi bi-telephone fs-4" abbr title="(71) 98698-7120"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://github.com/eldersb"><i class="bi bi-github fs-4"></i></a>
+                            <a class="nav-link" target="_blank" href="https://github.com/eldersb"><i class="bi bi-github fs-4" abbr title="eldersb"></i></a>
                         </li>
                                 
                   </ul>
