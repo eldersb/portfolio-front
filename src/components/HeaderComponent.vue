@@ -1,8 +1,8 @@
 <template>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg bg-primary text-light">
+        <nav class="navbar navbar-dark navbar-expand-lg text-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Portifólio - Elder Borges</a>
+                <a class="navbar-brand" href="#"><i class="bi bi-code-slash"></i> <span>Elder Borges</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -10,10 +10,10 @@
                     <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">                 
                         <div class="d-flex gap-3">
                             <router-link to="/" class="text-light link-custom">
-                                 Home
+                                <i class="bi bi-hash fs-5"></i>  Home
                             </router-link>
                             <router-link to="/about" class="text-light link-custom">
-                                Sobre mim
+                                <i class="bi bi-hash fs-5"></i> Sobre mim
                             </router-link> 
                         </div>                  
                         <li class="nav-item">
@@ -49,6 +49,20 @@
 
 .link-custom {
     text-decoration: none;
+}
+
+.navbar {
+    border-bottom: 2px solid #7276d5 ;
+}
+
+.bi-hash, .bi-code-slash {
+   color: #7276d5;
+}
+
+.navbar {
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-style: normal; 
 }
 
 </style>

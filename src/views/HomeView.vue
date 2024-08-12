@@ -5,15 +5,20 @@
     <div class="row d-flex justify-content-center">
         <div class="col-md-12">
 
+            <BannerComponent />
+
             <div class="jumbotron">
-                <h1 class="display-4 text-center mt-5">Projetos em destaque</h1>
-                    <p class="lead text-center">
+                <h1 class="text-destaque text-center mt-5">Projetos em destaque</h1>
+                    <p class="lead text text-center">
                         Este é meu portifolio pessoal de desenvolvedor, aqui você encontra um pouco
                         sobre mim, minhas habilidades e projetos que estou desenvolvendo. Estou aberto
                         para qualquer contato e feedback que me façam crescer como desenvolvedor!
                     </p>
-                    <hr class="my-4">
+                    <hr class="hr-cor my-4">
             </div>
+
+
+            
             
             <section class="mt-3 mb-5 col">
                 <article class="row m-0 p-0 justify-content-center align-items-center">
@@ -33,6 +38,7 @@
 </template>
 
 <script>
+import BannerComponent from '../components/BannerComponent.vue';
 import CardComponent from '../components/CardComponent.vue';
 import axios from 'axios';
 
@@ -40,7 +46,8 @@ import axios from 'axios';
 export default {
     name: 'HomeView',
     components: {
-        CardComponent
+        CardComponent,
+        BannerComponent
     },
     data() {
         return {
@@ -66,3 +73,36 @@ export default {
 
 
 </script>
+
+<style>
+
+
+
+#app {
+  background-color: #1E1E1E;
+}
+
+.hr-cor {
+    border: 0;
+    border-top: 2px solid #7276d5;
+    margin: 20px 0; 
+}
+
+.text{
+    color: gray;
+    font-size: 20px;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.text-destaque { 
+    color: #7276d5;
+    font-family: "Press Start 2P", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+
+}
+
+</style>
