@@ -2,8 +2,8 @@
         <div class="container mt-5 ">
     <div class="row m-0 p-0 align-items-center">
        
-        <div class="col-md-6 text text-center text-md-left">
-            <h2 class="mt-3 text-center">
+        <div class="col-md-6 text  text-md-left">
+            <h2 class="mt-3 text text-center">
                 <p class="mb-3">
                   <i class="bi bi-hash fs-1"></i>Sobre mim <img src="/public/line.png" alt="Linha decorativa do título">
                 </p>
@@ -11,7 +11,7 @@
                  <span class="text-span">Elder Borges</span>
             </h2>
             <div class="mt-4">
-                <p class="text">
+                <p class="text-principal">
                       Sou uma pessoa apaixonada por desafios.             
                       Estou sempre disposto a aprender e obter novas experiências.
                       Concluí o ensino médio-técnico na instituição CEEP/TIC, e neste processo fui consolidando meu interesse por tecnologia.
@@ -85,7 +85,7 @@
 
     <div class="row m-0 p-0 align-items-center">
 
-      <h2 class="mt-5 text">
+      <h2 class="mt-5 mb-0 text">
           <p class="mb-3">
             <i class="bi bi-hash fs-1"></i>Contact me <img src="/public/line.png" alt="Linha decorativa do título">
           </p>
@@ -93,7 +93,7 @@
 
        
           <div class="col-md-8">
-            <p class="text">Se tiver interessado em meus trabalhos <br>
+            <p class="text-final">Se tiver interessado em meus trabalhos <br>
                ou deseja me orientar profissionalmente, <br>
                 não hesite e entre em contato comigo  <i class="bi bi-arrow-right"></i>
             </p>
@@ -124,21 +124,32 @@
     text-align: justify;
 }
 
-.text{
+.text, .text-principal, .text-final{
     color: gray;
     font-family: "Fira Code", monospace;
     font-weight: 400;
     font-style: normal;  
+}
+
+.text {
+  font-size: 30px;
+}
+
+.text-principal{
     font-size: 22px; 
 }
 
-
-.text-h2 {
-  font-size: 33px;
+.text-final {
+  font-size: 22px;
 }
+
 
 .text-span {
     color: #3b4bd7;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 26px; 
 }
 
 .card {

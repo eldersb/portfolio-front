@@ -13,12 +13,17 @@
                  <span class="text-span">desenvolvedor!</span>
             </h2>
             <div class="mt-4">
-                <p>
+                <p class="text-frase">
                     A repetição é a mãe da aprendizagem, o pai da ação,
                     o que a torna o arquiteto da concretização.
                 </p>
-                <p>- Zig Ziglar</p>
-                <button type="button" class="btn btn-outline"><i class="bi bi-code-slash"></i> Contact me!!</button>
+                <p class="text-frase">- Zig Ziglar</p>
+
+                <router-link to="/about" @click="scroll" >
+                    <button type="button" class="btn btn-outline"><i class="bi bi-code-slash"></i> Contact me!!</button>
+                </router-link>
+
+
             </div>
         </div>
 
@@ -30,6 +35,23 @@
 </template>
 
 
+<script>
+export default {
+  methods: {
+    scroll(event) {
+      this.$router.push('/about')
+        .then(() => {
+          this.$nextTick(() => {
+            setTimeout(() => {
+              window.scrollTo(0, document.body.scrollHeight);
+            }, 0);
+          });
+        });
+    }
+  }
+}
+</script>
+
 <style scoped>
 
 .text {
@@ -38,6 +60,10 @@
 
 .text-span {
     color: #3b4bd7;
+}
+
+.text-frase {
+    font-size: 22px;
 }
 
 h2 {
