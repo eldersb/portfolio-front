@@ -3,7 +3,7 @@
     <div class="row m-0 p-0 align-items-center">
        
         <div class="col-md-6 text text-center text-md-left">
-            <h1 class="mt-3 text-center">
+            <h2 class="mt-3 text-center">
                 <p class="mb-3">Hello World <i class="bi bi-code-slash fs-2"></i>  </p>
                
                 
@@ -11,7 +11,7 @@
                  <span class="text-span">Elder Borges</span>
                  e sou um 
                  <span class="text-span">desenvolvedor!</span>
-            </h1>
+            </h2>
             <div class="mt-4">
                 <p>
                     A repetição é a mãe da aprendizagem, o pai da ação,
@@ -40,7 +40,7 @@
     color: #3b4bd7;
 }
 
-h1 {
+h2 {
     font-family: "Press Start 2P", system-ui;
     font-style: normal;
     font-size: 24px;

@@ -102,7 +102,6 @@ export default {
     font-weight: 400;
     font-style: normal;
     font-size: 33px;
-
 }
 
 </style>
