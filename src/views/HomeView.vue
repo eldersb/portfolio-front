@@ -17,9 +17,7 @@
                     <hr class="hr-cor my-4">
             </div>
 
-
-            
-            
+                    
             <section class="mt-3 mb-5 col">
                 <article class="row m-0 p-0 justify-content-center align-items-center">
                     <template v-for="card in allCards" :key="card.id">

@@ -80,7 +80,8 @@ h2 {
 
 .btn-outline:hover {
     background-color: #3b4bd7;
-    border: 2px solid #3b4bd7;
+    border:none;
+    color: gray;
 }
 
 
