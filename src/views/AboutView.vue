@@ -22,7 +22,7 @@
             
           </div>
 
-          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center mt-3 ">
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
               <img class="img-fluid" src="/public/elder-menor.jpeg" alt="Elder">
           </div>
         </div>
@@ -168,6 +168,12 @@
     font-style: normal;  
     font-size: 14px; 
 }
+
+
+.img-fluid {
+    border-radius: 10%;
+}
+
 
 
 li {

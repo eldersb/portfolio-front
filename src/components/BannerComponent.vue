@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center mt-3 ">
-            <img class="img-fluid" src="/public/elder-menor.jpeg" alt="Elder">
+            <img class="img-fluid" src="/public/elder-menor.jpeg" alt="Minha foto">
         </div>
     </div>
 </div>
@@ -91,6 +91,10 @@ export default {
     background-color: #3b4bd7;
     border:none;
     color: gray;
+}
+
+.img-fluid {
+    border-radius: 10%;
 }
 
 

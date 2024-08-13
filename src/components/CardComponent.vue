@@ -48,8 +48,9 @@ export default {
 }
 
 .fixed-height {
-    height: 200px; /* Ajuste conforme necessário */
+    height: 200px; 
     overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .body-2, .fixed-height {

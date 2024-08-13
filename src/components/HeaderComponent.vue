@@ -7,7 +7,7 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">                 
+                    <ul class="navbar-nav ms-auto d-flex justify-content-between align-items-center gap-3">                 
                         <div class="d-flex gap-3">
                             <router-link to="/" class="text-light link-custom">
                                 <i class="bi bi-hash fs-5"></i>Home
