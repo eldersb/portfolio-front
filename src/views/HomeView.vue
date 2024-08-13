@@ -61,7 +61,7 @@ export default {
     methods: {
        async fetchData(){
             try {
-                const responseCards = await  axios.get('https://portifolio-back-tfji.vercel.app/api/api/projects')
+                const responseCards = await  axios.get('https://portfolio-elder-back.vercel.app/api/api/projects')
                 this.allCards = responseCards.data;
                 
             }
