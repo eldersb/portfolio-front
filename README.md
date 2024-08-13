@@ -2,7 +2,7 @@
 Repositório contendo o front-end do meu portfólio que consome uma api criada por mim para gerencia-lo.
 
 * Deploy: https://portfolio-elder.vercel.app/about
-* API: https://portifolio-back-tfji.vercel.app/api/api/projects
+* API: https://portfolio-elder-back.vercel.app/api/api/projects
 * Back-End: https://github.com/eldersb/portfolio-back
 
 ## Tecnologias utilizadas
