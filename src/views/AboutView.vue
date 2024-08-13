@@ -2,24 +2,22 @@
         <div class="container mt-5 ">
     <div class="row m-0 p-0 align-items-center">
        
-        <div class="col-md-6 text  text-md-left">
-            <h2 class="mt-3 text text-center">
-                <p class="mb-3">
-                  <i class="bi bi-hash fs-1"></i>Sobre mim <img src="/public/line.png" alt="Linha decorativa do título">
-                </p>
-             
-                 <span class="text-span">Elder Borges</span>
-            </h2>
-            <div class="mt-4">
-                <p class="text-principal">
-                      Sou uma pessoa apaixonada por desafios.             
-                      Estou sempre disposto a aprender e obter novas experiências.
-                      Concluí o ensino médio-técnico na instituição CEEP/TIC, e neste processo fui consolidando meu interesse por tecnologia.
-                      Mais adiante, desenvolvi um olhar mais atento ao desenvolvimento,
-                      de forma a ingressar no superior em Sistemas de Informação pela faculdade UNIME com o intuito de ampliar minha rede,
-                      crescendo cada vez mais como desenvolvedor back-end e com interesse em adquirir skills fullstack.
-                </p>
-            </div>
+      <h2 class="mt-3 text">        
+        <i class="bi bi-hash fs-1"></i>Sobre mim  
+        <img src="/public/line.png" alt="Linha decorativa do título">     
+      </h2>
+
+        <div class="col-md-6 text text-md-left">
+            
+          <p class="text-principal">
+              Sou uma pessoa apaixonada por desafios.             
+              Estou sempre disposto a aprender e obter novas experiências.
+              Concluí o ensino médio-técnico na instituição CEEP/TIC, e neste processo fui consolidando meu interesse por tecnologia.
+              Mais adiante, desenvolvi um olhar mais atento ao desenvolvimento,
+              de forma a ingressar no superior em Sistemas de Informação pela faculdade UNIME com o intuito de ampliar minha rede,
+              crescendo cada vez mais como desenvolvedor back-end e com interesse em adquirir skills fullstack.
+          </p>
+           
         </div>
 
         <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center mt-3 ">
@@ -29,15 +27,11 @@
 
     <div class="row m-0 p-0 align-items-center">
                
-      <h2 class="mt-3 text">
-          <p class="mb-3">
-            <i class="bi bi-hash fs-1"></i>Skills <img src="/public/line.png" alt="Linha decorativa do título">
-          </p>
+      <h2 class="mt-3 mb-3 text">
+        <i class="bi bi-hash fs-1"></i>Skills <img src="/public/line.png" alt="Linha decorativa do título">
       </h2>
       
-    
-     
-      <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 18rem;">
+      <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 16rem;">
         <div class="card-header"><i class="bi bi-braces fs-4"></i> Front-End</div>
         <div class="card-body">
           <ul>
@@ -50,7 +44,7 @@
         </div>
       </div>
 
-      <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 18rem;">
+      <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 16rem;">
         <div class="card-header"><i class="bi bi-braces fs-4"></i> Back-End</div>
         <div class="card-body">
           <ul>
@@ -73,11 +67,11 @@
       </div>
       
 
-    <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 18rem;">
+    <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 14rem;">
       <div class="card-header"> <i class="bi bi-database text-light fs-4"></i> Databases</div>
-      <div class="card-body">
-        <p class="card-text">MySQL</p>
-      </div>
+        <div class="card-body">
+          <p class="card-text">MySQL</p>
+        </div>
     </div>
 
     </div>
@@ -86,9 +80,7 @@
     <div class="row m-0 p-0 align-items-center">
 
       <h2 class="mt-5 mb-0 text">
-          <p class="mb-3">
             <i class="bi bi-hash fs-1"></i>Contact me <img src="/public/line.png" alt="Linha decorativa do título">
-          </p>
       </h2>
 
        

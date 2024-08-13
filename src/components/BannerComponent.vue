@@ -3,15 +3,17 @@
     <div class="row m-0 p-0 align-items-center">
        
         <div class="col-md-6 text text-center text-md-left">
-            <h2 class="mt-3 text-center">
-                <p class="mb-3">Hello World <i class="bi bi-code-slash fs-2"></i>  </p>
-               
-                
-                 Meu nome é
+            <h2 class="mt-3 text-h2 text-center">
+                Hello World <i class="bi bi-code-slash fs-2"></i>  
+            </h2>
+
+            <h3 class="sub-title mt-3"> 
+                Meu nome é
                  <span class="text-span">Elder Borges</span>
                  e sou um 
                  <span class="text-span">desenvolvedor!</span>
-            </h2>
+            </h3>
+
             <div class="mt-4">
                 <p class="text-frase">
                     A repetição é a mãe da aprendizagem, o pai da ação,
@@ -63,13 +65,20 @@ export default {
 }
 
 .text-frase {
-    font-size: 22px;
+    font-size: 18px;
 }
 
-h2 {
+
+.text-h2 {
     font-family: "Press Start 2P", system-ui;
     font-style: normal;
     font-size: 24px;
+}
+
+.sub-title, .text-span {
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 20px;
 }
 
 
