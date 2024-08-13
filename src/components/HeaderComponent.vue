@@ -10,10 +10,10 @@
                     <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">                 
                         <div class="d-flex gap-3">
                             <router-link to="/" class="text-light link-custom">
-                                <i class="bi bi-hash fs-5"></i>  Home
+                                <i class="bi bi-hash fs-5"></i>Home
                             </router-link>
                             <router-link to="/about" class="text-light link-custom">
-                                <i class="bi bi-hash fs-5"></i> Sobre mim
+                                <i class="bi bi-hash fs-5"></i>Sobre mim
                             </router-link> 
                         </div>                  
                         <li class="nav-item">

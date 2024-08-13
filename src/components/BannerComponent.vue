@@ -61,7 +61,7 @@ export default {
 }
 
 .text-span {
-    color: #3b4bd7;
+    color: #7276d5;
 }
 
 .text-frase {

@@ -7,16 +7,19 @@
 
             <BannerComponent />
 
-            <div class="jumbotron">
-                <h1 class="text-destaque text-center mt-5">Projetos em destaque</h1>
-                    <p class="lead text text-center">
-                        Este é meu portifolio pessoal de desenvolvedor, aqui você encontra um pouco
-                        sobre mim, minhas habilidades e projetos que estou desenvolvendo. Estou aberto
-                        para qualquer contato e feedback que me façam crescer como desenvolvedor!
-                    </p>
-                    <hr class="hr-cor my-4">
-            </div>
+            <section>
+                <div class="jumbotron">
+                     <h1 class="text-destaque text-center mt-5">Projetos em destaque</h1>
+                        <p class=" text-jumb text-center">
+                            Este é meu portifolio pessoal de desenvolvedor, aqui você encontra um pouco
+                            sobre mim, minhas habilidades e projetos que estou desenvolvendo. Estou aberto
+                            para qualquer contato e feedback que me façam crescer como desenvolvedor!
+                        </p>
+                        <hr class="hr-cor my-4">
+                </div>
 
+            </section>
+           
                     
             <section class="mt-3 mb-5 col">
                 <article class="row m-0 p-0 justify-content-center align-items-center">
@@ -86,12 +89,13 @@ export default {
     margin: 20px 0; 
 }
 
-.text{
+
+.text-jumb {
     color: gray;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Fira Code", monospace;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal; 
 }
 
 .text-destaque { 
