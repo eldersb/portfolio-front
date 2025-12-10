@@ -42,6 +42,8 @@
 import BannerComponent from '../components/BannerComponent.vue';
 import CardComponent from '../components/CardComponent.vue';
 import axios from 'axios';
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase";
 
 
 export default {
@@ -61,8 +63,16 @@ export default {
     methods: {
        async fetchData(){
             try {
-                const responseCards = await  axios.get('https://portfolio-elder-back.vercel.app/api/api/projects')
-                this.allCards = responseCards.data;
+                // const responseCards = await  axios.get('https://portfolio-elder-back.vercel.app/api/api/projects')
+                // this.allCards = responseCards.data;
+            const querySnapshot = await getDocs(collection(db, "projetos"));
+                this.allCards = querySnapshot.docs.map(doc => ({
+                id: doc.id,
+                ...doc.data()
+                }));
+
+                onsole.log("FIREBASE RETORNOU:", data); // <--- VER AQUI
+            this.allCards = data;
                 
             }
             catch(error){
