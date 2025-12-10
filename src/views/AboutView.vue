@@ -11,7 +11,7 @@
           
           <div class="col-md-6 text text-md-left">
               
-            <p class="text-principal">
+            <p class="text-principal text-justify">
                 Sou uma pessoa apaixonada por desafios.             
                 Estou sempre disposto a aprender e obter novas experiências.
                 Concluí o ensino médio-técnico na instituição CEEP/TIC, e neste processo fui consolidando meu interesse por tecnologia.
@@ -22,8 +22,8 @@
             
           </div>
 
-          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-              <img class="img-fluid" src="/public/elder-menor.jpeg" alt="Elder">
+          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
+              <img class="img-fluid" src="/public/elder-terno.png" alt="Elder">
           </div>
         </div>
     </section>
@@ -61,7 +61,8 @@
                    <ul>
                      <li>PHP</li>
                      <li>Java</li>
-                     <li>Laravel</li> 
+                     <li>Laravel</li>
+                     <li>Spring Boot</li> 
                    </ul>
                  </div>
              </div>
@@ -88,6 +89,7 @@
                </div>
                  <div class="card-body">
                    <p class="card-text">MySQL</p>
+                   <p class="card-text">PostgreSQL</p>
                  </div>
            </div>
        
@@ -103,11 +105,10 @@
                 <i class="bi bi-hash fs-1"></i>Contact me <img src="/public/line.png" alt="Linha decorativa do título">
           </h2>
 
-
           <div class="col-md-8">
             <p class="text-final">Se tiver interessado em meus trabalhos <br>
             ou deseja me orientar profissionalmente, <br>
-            não hesite e entre em contato comigo  <i class="bi bi-arrow-right"></i>
+            não hesite e entre em contato comigo.
             </p>
                 
           </div>

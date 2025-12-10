@@ -2,12 +2,12 @@
     
     <div class="card m-1 shadow" style="width: 18rem;">
         <img class="card-img-top" :src="card.image" alt="Imagem do projeto">
-        <div class="card-body fixed-height">
+        <div class="card-body fixed-height " >
             <h5 class="card-title">
                 <i class="bi bi-asterisk fs-6"></i> 
                  {{ card.title }}
             </h5>
-            <p class="card-text">{{ card.description  }}</p>
+            <p class="card-text ">{{ card.description  }}</p>
             <p class="card-text"><strong class="text-strong">Tecnologias:</strong> {{ card.technologies }}</p>      
         </div>
         <div class="card-body d-flex justify-content-center gap-2 mt-2 body-2">
@@ -54,7 +54,7 @@ export default {
 }
 
 .body-2, .fixed-height {
-    border-top: 2px solid gray;
+    border-top: 1px solid gray;
 }
 
 
@@ -65,7 +65,6 @@ export default {
 .card{
     background-color: #333 ;
     color: gray;
-    border: 2px solid gray;
     font-family: "Fira Code", monospace;
     font-weight: 400;
     font-style: normal; 
@@ -83,5 +82,9 @@ export default {
     border: 2px solid #3b4bd7;
 
 }
+
+
+
+
 
 </style>
