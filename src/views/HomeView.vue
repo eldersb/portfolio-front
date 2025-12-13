@@ -11,9 +11,8 @@
                 <div class="jumbotron">
                      <h1 class="text-destaque text-center mt-5">Projetos em destaque</h1>
                         <p class=" text-jumb text-center">
-                            Este é meu portifolio pessoal de desenvolvedor, aqui você encontra um pouco
-                            sobre mim, minhas habilidades e projetos que estou desenvolvendo. Estou aberto
-                            para qualquer contato e feedback que me façam crescer como desenvolvedor!
+                            Este é meu portfólio pessoal de desenvolvedor, aqui você encontra um pouco
+                            sobre mim, minhas habilidades e projetos que estou desenvolvendo. 
                         </p>
                         <hr class="hr-cor my-4">
                 </div>

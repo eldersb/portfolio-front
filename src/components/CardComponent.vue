@@ -8,7 +8,7 @@
                  {{ card.title }}
             </h5>
             <p class="card-text ">{{ card.description  }}</p>
-            <p class="card-text"><strong class="text-strong">Tecnologias:</strong> {{ card.technologies }}</p>      
+            <p class="card-text"><strong class="text-tech">Tecnologias:</strong> {{ card.technologies }}</p>      
         </div>
         <div class="card-body d-flex justify-content-center gap-2 mt-2 body-2">
             <a :href="card.linkCode" class="btn text-light d-flex gap-1 " target="_blank">code</a>
@@ -58,20 +58,31 @@ export default {
 }
 
 
-.card-title, .text-strong {
+.card-title, .text-tech {
     color: #7276d5;
+    
+}
+
+.card-title {
+    font-size: 18px;
 }
 
 .card{
     background-color: #333 ;
     color: gray;
-    font-family: "Fira Code", monospace;
     font-weight: 400;
     font-style: normal; 
-  
 }
 
 
+.card-text {
+  font-size: 14px;
+   font-family: "Roboto", sans-serif;
+   font-size: 14px;
+  text-align: justify;
+  hyphens: auto;
+
+}
 
 .btn {
     background-color: #3b4bd7; 

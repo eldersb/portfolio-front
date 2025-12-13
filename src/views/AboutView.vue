@@ -1,39 +1,37 @@
 <template>
   <div class="container mt-5">
     <section>
-        <div class="row m-0 p-0 align-items-center">
-        
-        <h2 class="mt-3 text">        
-          <i class="bi bi-hash fs-1"></i>Sobre mim  
-          <img src="/public/line.png" alt="Linha decorativa do título">     
-        </h2>
+  <div class="row m-0 p-0 align-items-start">
 
-          
-          <div class="col-md-6 text text-md-left">
-              
-            <p class="text-principal text-justify">
-                Sou uma pessoa apaixonada por desafios.             
-                Estou sempre disposto a aprender e obter novas experiências.
-                Concluí o ensino médio-técnico na instituição CEEP/TIC, e neste processo fui consolidando meu interesse por tecnologia.
-                Mais adiante, desenvolvi um olhar mais atento ao desenvolvimento,
-                de forma a ingressar no superior em Sistemas de Informação pela faculdade UNIME com o intuito de ampliar minha rede,
-                crescendo cada vez mais como desenvolvedor back-end e com interesse em adquirir skills fullstack.
-            </p>
-            
-          </div>
+    <div class="col-md-6">
+      <h2 class="mt-3 mb-3 text">
+        <i class="bi bi-hash"></i>Sobre mim  
+        <img src="/public/line.png" alt="Linha decorativa do título">
+      </h2>
 
-          <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center ">
-              <img class="img-fluid" src="/public/elder-terno.png" alt="Elder">
-          </div>
-        </div>
-    </section>
+      <p class="text-principal text-justify">
+        Estou sempre disposto a aprender e obter novas experiências.
+        Concluí o ensino médio-técnico na instituição CEEP/TIC, e neste processo fui consolidando meu interesse por tecnologia.
+        Atualmente, sou formado em Sistemas de Informação pela UNIME, tendo como foco profissional o Desenvolvimento Web.
+        Tenho experiência na área de Suporte, tendo atuado como estagiário e Analista de Suporte Técnico.
+        Hoje, atuo como desenvolvedor, tendo experiências com projetos em PHP e Java.
+      </p>
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-center align-items-start">
+      <img class="img-fluid" src="/public/elder-terno.png" alt="Elder">
+    </div>
+
+  </div>
+</section>
+
    
 
     <section>
       <div class="row m-0 p-0 align-items-center">
                
                <h2 class="mt-3 mb-3 text">
-                 <i class="bi bi-hash fs-1"></i>Skills <img src="/public/line.png" alt="Linha decorativa do título">
+                 <i class="bi bi-hash"></i>Skills <img src="/public/line.png" alt="Linha decorativa do título">
                </h2>
              
                <div class="card text-white bg-secondary mb-3 ms-3" style="max-width: 16rem;">
@@ -99,15 +97,14 @@
 
 
     <section>
-      <div class="row m-0 p-0 align-items-center">
+      <div class="row m-0 p-0">
 
-          <h2 class="mt-5 mb-0 text">
-                <i class="bi bi-hash fs-1"></i>Contact me <img src="/public/line.png" alt="Linha decorativa do título">
+          <h2 class="mt-5 mb-3 text">
+                <i class="bi bi-hash "></i>Contact me <img src="/public/line.png" alt="Linha decorativa do título">
           </h2>
 
-          <div class="col-md-8">
-            <p class="text-final">Se tiver interessado em meus trabalhos <br>
-            ou deseja me orientar profissionalmente, <br>
+          <div class="col-md-8 mt-3">
+            <p class="text-final">Se tiver interessado em meus trabalhos, ou deseja me orientar profissionalmente,
             não hesite e entre em contato comigo.
             </p>
                 
@@ -138,7 +135,7 @@
 
 .text, .text-principal, .text-final{
     color: gray;
-    font-family: "Fira Code", monospace;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;  
 }
@@ -148,7 +145,7 @@
 }
 
 .text-principal{
-    font-size: 22px; 
+    font-size: 20px; 
 }
 
 .text-final {
