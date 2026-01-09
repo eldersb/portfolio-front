@@ -1,6 +1,11 @@
 <template>
     
     <div class="card m-1 shadow" style="width: 18rem;">
+
+         <div v-if="card.emphasis" class="badge-destaque">
+            <i class="bi bi-star-fill"></i>
+        </div>
+
         <img class="card-img-top" :src="card.image" alt="Imagem do projeto">
         <div class="card-body fixed-height " >
             <h5 class="card-title">
@@ -12,7 +17,21 @@
         </div>
         <div class="card-body d-flex justify-content-center gap-2 mt-2 body-2">
             <a :href="card.linkCode" class="btn text-light d-flex gap-1 " target="_blank">code</a>
-            <a :href="card.linkDeploy" class="btn text-light d-flex gap-1" target="_blank">deploy </a>
+            <a 
+                v-if="card.linkDeploy"
+                :href="card.linkDeploy" 
+                class="btn text-light d-flex gap-1" 
+                target="_blank"
+            >
+                deploy
+            </a>
+            <button 
+                v-else
+                class="btn text-light d-flex gap-1 btn-disabled" 
+                disabled
+            >
+                deploy
+            </button>
         </div>
     </div>
 
@@ -32,7 +51,8 @@ export default {
     },
     props: {
         card: {
-            type: Object
+            type: Object,
+            required: true
         }
     }
 }
@@ -94,8 +114,20 @@ export default {
 
 }
 
-
-
-
-
+.badge-destaque {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffd700;
+    color: #333;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
 </style>

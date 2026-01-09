@@ -22,12 +22,9 @@
                     
             <section class="mt-3 mb-5 col">
                 <article class="row m-0 p-0 justify-content-center align-items-center">
-                    <template v-for="card in allCards" :key="card.id">
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div v-for="card in cardsOrdenados" :key="card.id" class="col-12 col-md-6 col-lg-4">
                             <CardComponent :card="card" class="mb-5" />
-                        </div>
-                    </template>
-                    
+                        </div>     
                 </article>
             </section>
        
@@ -59,11 +56,19 @@ export default {
     created() {
     this.fetchData();
     },
+
+    computed: {
+        cardsOrdenados() {
+            return [...this.allCards].sort((a, b) => {
+                if (a.emphasis && !b.emphasis) return -1;
+                if (!a.emphasis && b.emphasis) return 1;
+                return 0;
+            });
+        }
+    },
     methods: {
        async fetchData(){
             try {
-                // const responseCards = await  axios.get('https://portfolio-elder-back.vercel.app/api/api/projects')
-                // this.allCards = responseCards.data;
             const querySnapshot = await getDocs(collection(db, "projetos"));
                 this.allCards = querySnapshot.docs.map(doc => ({
                 id: doc.id,
