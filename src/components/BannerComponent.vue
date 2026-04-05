@@ -25,7 +25,7 @@
     <div class="hero-right">
       <div class="photo-frame">
         <div class="photo-border"></div>
-        <img src="/public/elder-menor.jpeg" alt="Elder Borges" class="photo-img" />
+        <img src="/public/elder-principal.jpeg" alt="Elder Borges" class="photo-img" />
         <div class="status-badge">
           <span class="status-dot"></span>
           Open to work
