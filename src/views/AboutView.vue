@@ -66,7 +66,7 @@
   <section class="contact">
     <div class="contact-left">
       <p class="section-label">Contato</p>
-      <h2 class="section-title">Bora conversar?</h2>
+      <h2 class="section-title">Vamos conversar?</h2>
       <p class="sobre-text">
         Se tiver interessado em meus trabalhos, ou deseja me orientar profissionalmente,
         não hesite e entre em contato comigo.
