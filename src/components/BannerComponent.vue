@@ -121,7 +121,6 @@ export default {
   border-left: 2px solid rgba(124,106,255,0.35);
   padding-left: 16px;
   margin-bottom: 36px;
-  font-style: italic;
 }
 .hero-quote cite {
   display: block;
