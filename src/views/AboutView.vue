@@ -97,8 +97,7 @@ const skills = [
 const contacts = [
   { icon: 'gh', label: 'GitHub',   href: 'https://github.com/eldersb' },
   { icon: 'in', label: 'LinkedIn', href: 'https://www.linkedin.com/in/elders3288/' },
-  { icon: '@',  label: 'E-mail',   href: 'mailto:elders787@gmail.com' },
-  { icon: '◉',  label: 'Discord',  href: '#' },
+  { icon: '@',  label: 'E-mail',   href: 'mailto:elders3288@gmail.com' }
 ]
 
 const codeLines = [
