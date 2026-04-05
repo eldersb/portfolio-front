@@ -65,20 +65,21 @@ export default {
 }
 
 .text-frase {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
 .text-h2 {
     font-family: "Press Start 2P", system-ui;
     font-style: normal;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .sub-title, .text-span {
     font-family: "Press Start 2P", system-ui;
     font-style: normal;
-    font-size: 20px;
+    font-size: 13px;
+     line-height: 2;
 }
 
 
@@ -97,5 +98,12 @@ export default {
     border-radius: 10%;
 }
 
+
+/* desktop */
+@media (min-width: 768px) {
+  .text-h2 { font-size: 24px; }
+  .sub-title, .text-span { font-size: 20px; }
+  .text-frase { font-size: 18px; }
+}
 
 </style>

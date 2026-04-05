@@ -74,8 +74,7 @@ export default {
                 id: doc.id,
                 ...doc.data()
                 }));
-
-                onsole.log("FIREBASE RETORNOU:", data); // <--- VER AQUI
+                
             this.allCards = data;
                 
             }
