@@ -7,8 +7,14 @@
 
             <BannerComponent />
 
+             <div class="divider mb-3">
+                <div class="divider-line"></div>
+                <span class="divider-label">// projetos</span>
+                <div class="divider-line"></div>
+            </div>
+
               <section class="projetos">
-                <p class="section-label">Projetos</p>
+                <p class="section-label">Portfólio</p>
                 <h2 class="section-title">Projetos em destaque</h2>
                 <p class="projetos-desc">
                     Este é meu portfólio pessoal de desenvolvedor, aqui você encontra um pouco
