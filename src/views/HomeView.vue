@@ -7,17 +7,14 @@
 
             <BannerComponent />
 
-            <section>
-                <div class="jumbotron">
-                     <h1 class="text-destaque text-center mt-5">Projetos em destaque</h1>
-                        <p class=" text-jumb text-center">
-                            Este é meu portfólio pessoal de desenvolvedor, aqui você encontra um pouco
-                            sobre mim, minhas habilidades e projetos que estou desenvolvendo. 
-                        </p>
-                        <hr class="hr-cor my-4">
-                </div>
-
-            </section>
+              <section class="projetos">
+                <p class="section-label">Projetos</p>
+                <h2 class="section-title">Projetos em destaque</h2>
+                <p class="projetos-desc">
+                    Este é meu portfólio pessoal de desenvolvedor, aqui você encontra um pouco
+                    sobre mim, minhas habilidades e projetos que estou desenvolvendo.
+                </p>
+            </section>    
            
                     
             <section class="mt-3 mb-5 col">
@@ -37,7 +34,6 @@
 <script>
 import BannerComponent from '../components/BannerComponent.vue';
 import CardComponent from '../components/CardComponent.vue';
-import axios from 'axios';
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
@@ -111,12 +107,13 @@ export default {
     font-style: normal; 
 }
 
-.text-destaque { 
-    color: #7276d5;
-    font-family: "Press Start 2P", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 33px;
+
+.projetos-desc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  color: rgba(232,228,255,0.55);
+  line-height: 1.85;
+  margin-bottom: 28px;
 }
 
 </style>
