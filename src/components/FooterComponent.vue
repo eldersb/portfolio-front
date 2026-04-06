@@ -1,18 +1,13 @@
 <template>
     
-
     <footer class="rodape">
-        <h2 class=""> 
+        <h2> 
             Portfólio - Elder Borges
         </h2>
    
-
-        <h6>© Copyright 2024. Made by Elder Borges</h6>
+        <h6>© Copyright 2026. Made by Elder Borges</h6>
         
-
     </footer>
-
-
 
 </template>
 
@@ -26,15 +21,13 @@
     text-align: center;
     padding: 10px;
     color: gray;
-    font-size: 20px;
-    font-family: "Fira Code", monospace;
-    font-weight: 400;
+    font-family: 'JetBrains Mono', monospace;
     font-style: normal;  
 
 }
 
-h2 {
-    font-size: 20px;
+h2, h6 {
+    font-size: 14px;
 }
 
 </style>

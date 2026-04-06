@@ -16,7 +16,21 @@
             <p class="card-text"><strong class="text-tech">Tecnologias:</strong> {{ card.technologies }}</p>      
         </div>
         <div class="card-body d-flex justify-content-center gap-2 mt-2 body-2">
-            <a :href="card.linkCode" class="btn text-light d-flex gap-1 " target="_blank">code</a>
+            <a 
+            v-if="card.linkCode"
+            :href="card.linkCode"
+             class="btn text-light d-flex gap-1 " 
+             target="_blank"
+             >
+                code
+            </a>
+             <button 
+                v-else
+                class="btn text-light d-flex gap-1 btn-disabled" 
+                disabled
+            >
+                code
+            </button>
             <a 
                 v-if="card.linkDeploy"
                 :href="card.linkDeploy" 
